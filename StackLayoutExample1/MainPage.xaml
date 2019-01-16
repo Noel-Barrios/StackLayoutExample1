@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:StackLayoutExample1" x:Class="StackLayoutExample1.MainPage" Padding="20">
-    <StackLayout Spacing="10" >
+    <StackLayout Spacing="10" VerticalOptions="End" Orientation="Horizontal" HorizontalOptions="Start">
         <!-- Place new controls here -->
         <Label Text="Stop" BackgroundColor="Red" Font="20" />
         <Label Text="Slow down" BackgroundColor="Yellow" Font="20" />
